@@ -9,3 +9,11 @@ Create stub issues as ease as possible.
 * utf8:✓
 * authenticity_token:foo token
 * issue[title]: foo issue
+
+
+## Using ghi
+https://github.com/stephencelis/ghi
+
+ $ ./ghi config ghi-repo varhub/issue-test
+ $ ./ghi config --auth varhub
+ $ fail... (No GitHub repo.)
