@@ -13,7 +13,10 @@ Create stub issues as ease as possible.
 
 ## Using ghi
 https://github.com/stephencelis/ghi
-
+<pre>
  $ ./ghi config ghi-repo varhub/issue-test
  $ ./ghi config --auth varhub
- $ fail... (No GitHub repo.)
+ $ ./ghi open -m 'issue X' -- varhub/issue-test
+</pre>
+
+Use a bash for to create N issues ;)
